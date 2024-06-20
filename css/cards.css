@@ -1,0 +1,143 @@
+
+.card_container,.card_container_special{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;   
+}
+.card_container_special{
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #000;
+    border-radius: 15px;
+    width: 505px;
+    margin: 10px;
+    transition:1.5s;
+}
+.card_special{
+    
+    color: #000;
+    border-radius: 15px;
+    width: 425px;
+    margin: 10px;
+    transition:1.5s;
+}
+
+.card_special i{
+    font-size: 70px;
+    color: #012c2b;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.card_special:hover{
+    transition: 2s;
+    transform: translateY(15px);
+}
+
+.conteudo_card_special h3{
+    text-align: center;
+    color: #038682;
+    font-size: 45px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.conteudo_card_special p{
+    text-align: center;
+    color: #012c2b;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.conteudo_card_special a{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #012c2b;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 23px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #012c2b;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.5s;
+    margin-left: 25%;
+}
+.conteudo_card_special a:hover{
+    box-shadow: inset 0 100px 0 0 #0cbdb7;
+} 
+
+
+
+.card:hover{
+    transition: 2s;
+    transform: translateY(-15px);
+}
+
+.card img{
+    border-radius: 15px;
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom:10px ;
+}
+
+.conteudo_card{
+    padding: 12px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.conteudo_card h2{
+    text-align: center;
+    color: #0cbdb7;
+    font-size: 35px;
+    margin-bottom: 35px;
+
+}
+.conteudo_card p{
+    text-align: center;
+    color: #012c2b;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+.conteudo_card a{
+    text-decoration: none;
+    color: #012c2b;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 11px 25px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #012c2b;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.5s;
+}
+.conteudo_card a:hover{
+    box-shadow: inset 0 100px 0 0 #0cbdb7;
+} 
